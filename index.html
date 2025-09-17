@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phronesis Capital Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#1e3a8a', // A deep blue
+              'primary-hover': '#1e40af',
+              'dark-primary': '#60a5fa',
+              'dark-primary-hover': '#3b82f6',
+
+              'secondary': '#10b981', // A vibrant green
+
+              'background': '#f1f5f9', // A light gray
+              'card': '#ffffff',
+              'text-primary': '#1f2937',
+              'text-secondary': '#4b5563',
+
+              'dark-background': '#111827',
+              'dark-card': '#1f2937',
+              'dark-text-primary': '#f3f4f6',
+              'dark-text-secondary': '#9ca3af',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "recharts": "https://aistudiocdn.com/recharts@^3.1.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-background dark:bg-dark-background">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

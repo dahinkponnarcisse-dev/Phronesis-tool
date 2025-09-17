@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Phronesis Capital Dashboard",
+  "description": "A web-based application for managing the Phronesis Capital investment club, inspired by an Excel/VBA specification. It allows for tracking members, capital, portfolio transactions, and performance with a modern, intuitive interface.",
+  "requestFramePermissions": []
+}
